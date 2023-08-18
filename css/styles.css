@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(/img/backg-1.jpg);
+    background-size: cover;
+}
+
+/* Caixa de login */
+/* Estilização das janelas de login e de cadastro */
+.box {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding: 75px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    background-color: #c3efe6;
+    /* Outras cores da imagem: #fdd04f ; #a6e3db ; #393e65 */
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px ;
+}
+/* Especificamente na caix de login */
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* Definições dos espaçamentos dos elementos dentro da caixa de login */
+.space-elements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.space-elements h1{
+    margin-top: -50px;
+}
+/* Estiliza e posiciona os ícones */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+/* Estiliza os ícones */
+i{
+    font-size: 2rem;
+    color: black;
+}
+/* Estiliza e posiciona os campos ao redor dos ícones */
+.social{
+    display: flex;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 30px;
+}
+.space-elements a{
+    color: blue;
+    text-decoration: none;
+}
+.space-elements p{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+}
+/* Estilização dos campos de inserção de dados */
+.space-elements input[type="text"], input[type="email"], input[type="password"]{
+    height: 3rem;
+    width: 20rem;
+    /* border-radius: 10px; */
+    padding: 0 20px 0 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* Estilizar o placeholder dos campos de inserção. */
+.space-elements input[type="email"]::placeholder, input[type="password"]::placeholder, input[type="text"]::placeholder{
+    text-decoration: underline;
+}
+.space-elements input[type="submit"]{
+    border-radius: 25px;
+    height: 3rem;
+    width: 13rem;
+    border: 1px solid #393e65;
+    transition: .7s;
+    background-color: white;
+    color: #393e65;
+    cursor: pointer;
+}
+/* A ação que será realizada após o mouse passar por cima do botão ":hover" */
+.space-elements input[type="submit"]:hover{
+    background-color: #393e65;
+    color: white;
+    border: none;
+}
+/* O botão será estilizado quando ele for clicado ":active" */
+.space-elements input[type="submit"]:active{
+    transform: scale(0.95);
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+span a{
+    padding-left: 5px;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+    padding-bottom: -30px;
+    color: blue;
+}
+
+/* Cadastro */
+/* Especificamente na caixa de login */
+.box-cad{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding: 75px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    background-color: #c3efe6;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px;
+}
+p{
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 10px 0 10px;
+}
